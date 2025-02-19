@@ -1,0 +1,122 @@
+div{
+    box-sizing: border-box;
+}
+html{
+    display: flex;
+    justify-content: center;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 460px;
+}
+
+#header{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 460px;
+}
+
+#header h1{
+    font-family: "Noto Sans", serif;
+    font-weight: 800;
+    color: black;
+}
+
+#contents{
+    display: flex;
+    justify-content: center;
+    height: 230px;
+    width: 460px;
+}
+
+#iogin-input{
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.idpwd{
+    padding-left: 10px;
+    width: 420px;
+    height: 55px;
+}
+
+#pwd{
+    margin-top: 10px;
+}
+#contents button{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 436px;
+    height: 60px;
+}
+
+#contents button a{
+    color: white;
+    text-decoration: none;
+}
+
+#contents2{
+    margin-top: 20px;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#otherlogin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contents2 button {
+    background-color: white;
+    display: flex;
+    align-items: center; /* 수직 중앙 정렬 */
+    width: 435px;
+    height: 50px;
+    margin-bottom: 6px;
+    padding-left: 10px; /* 왼쪽 패딩 추가 */
+    border: 1px solid #ccc;
+}
+
+#contents2 button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px; /* 아이콘과 텍스트 사이 간격 조정 */
+}
+
+#contents2 button a{
+    text-decoration: none;
+    color: black;
+}
+
+#login-btc1 {
+    display: flex;
+    justify-content: center;
+    
+    height: 50px;
+    width: 460px;
+}
+
+#login-btc2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#login-btc2 a{
+    text-decoration: none;
+    color: black;
+}
